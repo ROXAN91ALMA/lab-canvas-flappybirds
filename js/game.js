@@ -18,8 +18,11 @@ class Game {
 
 
     draw() {
-        console.log("holsss")
         this.background.draw();
+    }
+
+    move() {
+        this.background.move()
     }
 
     clear() {
